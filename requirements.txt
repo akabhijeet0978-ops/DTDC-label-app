@@ -1,0 +1,4 @@
+flask
+python-barcode[images]
+Pillow
+gunicorn
