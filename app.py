@@ -83,7 +83,7 @@ FORM_HTML = """<!DOCTYPE html>
   <div class="section-card">
     <div class="section-header">Sender (Consignor) — Section 1</div>
     <div class="section-body triple">
-      <div class="field"><label>Sender Name <span class="req">*</span></label><input type="text" name="sender_name" placeholder="Full name" required></div>
+      <div class="field"><label>Sender Name</label><input type="text" name="sender_name" placeholder="Full name"></div>
       <div class="field"><label>Phone</label><input type="text" name="sender_phone" placeholder="Phone number"></div>
       <div class="field"><label>Sender's GSTIN</label><input type="text" name="sender_gstin" placeholder="Optional"></div>
       <div class="field span3"><label>Company Name &amp; Address (Line 1)</label><input type="text" name="sender_company" placeholder="Company name and address line 1"></div>
@@ -98,7 +98,7 @@ FORM_HTML = """<!DOCTYPE html>
   <div class="section-card">
     <div class="section-header">Recipient (Consignee) — Section 2</div>
     <div class="section-body triple">
-      <div class="field"><label>Recipient Name <span class="req">*</span></label><input type="text" name="recipient_name" placeholder="Full name" required></div>
+      <div class="field"><label>Recipient Name</label><input type="text" name="recipient_name" placeholder="Full name"></div>
       <div class="field"><label>Phone</label><input type="text" name="recipient_phone" placeholder="Phone number"></div>
       <div class="field"><label>Recipient's GSTIN</label><input type="text" name="recipient_gstin" placeholder="Optional"></div>
       <div class="field span3"><label>Company Name &amp; Address (Line 1)</label><input type="text" name="recipient_company" placeholder="Company name and address line 1"></div>
@@ -305,6 +305,7 @@ LABEL_HTML = """<!DOCTYPE html>
 <body>
 
 <button class="print-btn" onclick="window.print()">&#128438; Print Consignment Note</button>
+<a href="/" style="text-decoration:none;"><button class="print-btn" style="background:linear-gradient(135deg,#1a4a8a,#2563eb);margin-left:12px;">&#10010; Generate New Label</button></a>
 
 <div class="receipt-container">
     <div class="main-wrapper">
