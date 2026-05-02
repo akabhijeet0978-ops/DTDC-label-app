@@ -7,9 +7,8 @@ A simple and clean **DTDC-style courier label generator** built using Flask. Thi
 ## 🚀 Live Demo
 
 👉 **Render Deployment Link:**
-[https://your-app-name.onrender.com](https://dtdc-label-app.onrender.com/)
+[https://dtdc-label-app.onrender.com/]
 
-*(Replace with your actual Render URL)*
 
 ---
 
@@ -138,7 +137,7 @@ Python 3.x
 
 ## 👨‍💻 Author
 
-**Parth Manocha**
+**Abhijeet Kumar**
 B.Tech CSE Student
 
 ---
