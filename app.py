@@ -217,7 +217,7 @@ LABEL_HTML = """<!DOCTYPE html>
         .receipt-container { position: relative; }
         .main-wrapper {
             display: flex;
-            width: 950px;
+            width: 1050px;
             background: #fff;
             border: 2px solid #000;
             color: #000;
